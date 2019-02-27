@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="start.ChooseclassController">
+   <bottom>
+      <AnchorPane prefHeight="500.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="45.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="请选择类别：">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Button layoutX="250.0" layoutY="103.0" mnemonicParsing="false" onAction="#onButtonClick1" prefHeight="60.0" prefWidth="200.0" text="药品信息维护" />
+            <Button layoutX="250.0" layoutY="181.0" mnemonicParsing="false" onAction="#onButtonClick2" prefHeight="60.0" prefWidth="200.0" text="诊疗项目信息维护" />
+            <Button layoutX="250.0" layoutY="266.0" mnemonicParsing="false" onAction="#onButtonClick3" prefHeight="60.0" prefWidth="200.0" text="病种信息维护" />
+            <Button layoutX="250.0" layoutY="345.0" mnemonicParsing="false" onAction="#onButtonClick4" prefHeight="60.0" prefWidth="200.0" text="医疗待遇计算参数维护" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

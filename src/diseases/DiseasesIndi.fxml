@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="diseases.DiseasesIndiController">
+   <left>
+      <AnchorPane prefHeight="500.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="92.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="疾病编码：">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="92.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="病种名称：">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="371.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="疾病种类：">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="371.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="病种报销标志：">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Label fx:id="code" layoutX="237.0" layoutY="94.0" text="Label" />
+            <Label fx:id="name" layoutX="237.0" layoutY="240.0" text="Label" />
+            <Label fx:id="type" layoutX="544.0" layoutY="94.0" text="Label" />
+            <Label fx:id="sign" layoutX="544.0" layoutY="240.0" text="Label" />
+            <Button layoutX="140.0" layoutY="392.0" mnemonicParsing="false" onAction="#edit" prefHeight="30.0" prefWidth="75.0" text="修改" />
+            <Button layoutX="334.0" layoutY="392.0" mnemonicParsing="false" onAction="#shanchu" prefHeight="30.0" prefWidth="75.0" text="删除" />
+            <Button layoutX="526.0" layoutY="392.0" mnemonicParsing="false" onAction="#fanhui" prefWidth="75.0" text="返回" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

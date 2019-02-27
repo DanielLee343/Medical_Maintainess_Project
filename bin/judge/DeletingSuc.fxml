@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="judge.DeletingSucController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="113.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="删除成功！" />
+            <Button layoutX="117.0" layoutY="120.0" mnemonicParsing="false" onAction="#queding" prefHeight="30.0" prefWidth="66.0" text="确定" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

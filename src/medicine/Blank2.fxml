@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="medicine.Blank2Controller">
+   <center>
+      <AnchorPane prefHeight="500.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="code" layoutX="106.0" layoutY="95.0" text="Label" />
+            <Label fx:id="name" layoutX="106.0" layoutY="167.0" text="Label" />
+            <Label fx:id="type" layoutX="106.0" layoutY="240.0" text="Label" />
+            <Label fx:id="level" layoutX="126.0" layoutY="309.0" text="Label" />
+            <Label fx:id="max" layoutX="107.0" layoutY="378.0" text="Label" />
+            <Label fx:id="judge" layoutX="350.0" layoutY="51.0" text="Label" />
+            <Label fx:id="unit" layoutX="343.0" layoutY="205.0" text="Label" />
+            <Label fx:id="size" layoutX="350.0" layoutY="329.0" text="Label" />
+            <Label fx:id="days" layoutX="343.0" layoutY="378.0" text="Label" />
+            <Label fx:id="frequency" layoutX="343.0" layoutY="131.0" text="Label" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

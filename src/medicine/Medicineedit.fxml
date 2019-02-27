@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="medicine.MedicineEditController">
+   <left>
+      <AnchorPane prefHeight="520.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="67.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="药品编码：">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="67.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="药品名称：">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="67.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="收费类别：">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="67.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="收费项目等级：">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="67.0" layoutY="396.0" strokeType="OUTSIDE" strokeWidth="0.0" text="最高限价：">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="381.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="是否需要审批：">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="390.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="使用频次：">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+            <Text layoutX="390.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="单位：">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+            <Text layoutX="390.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="规格：">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+            <Text layoutX="390.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="限定天数：">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+            <TextField fx:id="code" layoutX="195.0" layoutY="73.0" prefHeight="30.0" prefWidth="167.0" />
+            <TextField fx:id="name" layoutX="194.0" layoutY="154.0" prefHeight="30.0" prefWidth="168.0" />
+            <TextField fx:id="max" layoutX="195.0" layoutY="374.0" prefHeight="30.0" prefWidth="167.0" />
+            <TextField fx:id="frequency" layoutX="517.0" layoutY="155.0" prefHeight="30.0" prefWidth="166.0" />
+            <TextField fx:id="unit" layoutX="517.0" layoutY="233.0" prefHeight="30.0" prefWidth="167.0" />
+            <TextField fx:id="size" layoutX="515.0" layoutY="306.0" prefHeight="30.0" prefWidth="166.0" />
+            <TextField fx:id="days" layoutX="515.0" layoutY="375.0" prefHeight="30.0" prefWidth="170.0" />
+            <ChoiceBox fx:id="type" layoutX="194.0" layoutY="232.0" prefHeight="30.0" prefWidth="168.0" />
+            <ChoiceBox fx:id="level" layoutX="195.0" layoutY="305.0" prefHeight="30.0" prefWidth="167.0" />
+            <ChoiceBox fx:id="judge" layoutX="517.0" layoutY="73.0" prefHeight="30.0" prefWidth="167.0" />
+            <Button layoutX="435.0" layoutY="470.0" mnemonicParsing="false" onAction="#baocun" prefHeight="30.0" prefWidth="84.0" text="保存" />
+            <Button layoutX="559.0" layoutY="470.0" mnemonicParsing="false" onAction="#fanhui" prefWidth="84.0" text="返回" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
